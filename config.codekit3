@@ -9,38 +9,66 @@
 	],
 "creatorBuild": "33081",
 "files": {
-	"/css/fonts.css": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/css/base.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/fonts-min.css",
+		"oAP": "/css/base-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/style-additional.css": {
+	"/css/fonts.hide.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/style-additional-min.css",
+		"oAP": "/css/fonts.hide-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/style-additional.scss": {
+	"/css/style-additional.hide.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/style-additional.hide-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/style-additional.hide.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
-		"ft": 4,
+		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/style-additional.css",
+		"oAP": "/css/style-additional.hide.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
+		},
+	"/css/style-original.hide.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/style-original.hide-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/css/style.css": {
 		"aP": 1,
@@ -51,6 +79,19 @@
 		"oAP": "/css/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/css/style.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
 		},
 	"/emadd.txt": {
 		"cB": 0,
@@ -66,6 +107,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/2603minion-pro-reg.woff2",
+		"oF": 0
+		},
+	"/fonts/MinionPro-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/MinionPro-Bold.woff2",
+		"oF": 0
+		},
+	"/fonts/MinionPro-Italic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/MinionPro-Italic.woff2",
+		"oF": 0
+		},
+	"/fonts/MinionPro-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/MinionPro-Regular.woff2",
 		"oF": 0
 		},
 	"/fonts/social-logos.eot": {
@@ -133,6 +198,19 @@
 		"iS": 5929,
 		"oA": 0,
 		"oAP": "/img/cropped-Heinz-Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/Heinz-Logo_WEBSITE-UPDATED.png": {
+		"ft": 32768,
+		"iS": 448351,
+		"oA": 0,
+		"oAP": "/img/Heinz-Logo_WEBSITE-UPDATED.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

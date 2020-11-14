@@ -9,9 +9,9 @@
 	<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
-	<link rel="stylesheet" href="/css/style-additional.css" type="text/css" media="all">
 	<link rel="stylesheet" href="/css/fonts.css" type="text/css" crossorigin="anonymous" media="all">
+	<link rel="stylesheet" href="/css/base.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
 
 	<!-- Javascript -->
 	<script src="/js/jquery-1.12.4.min.js"></script>
@@ -32,22 +32,11 @@
 </head>
 
 <body class="home page">
-	<header id="masthead" class="site-header">
+	<div id="color-bar"></div>
 
-		<div class=" header-items wrapper">
-			<div class=" site-branding"><a href="/" class="custom-logo-link" rel="home" aria-current="page"><img width="213" height="120" src="/img/cropped-Heinz-Logo.png" class="custom-logo" alt=""></a></div><button aria-expanded="false" class="menu-toggle"><span class="bar"><span class="screen-reader-text">Site Navigation</span></span></button>
-			<nav id="site-navigation" class="site-navigation" aria-label="Site Navigation">
-				<h2 class="screen-reader-text">Site Navigation</h2>
-				<div id="menu-container" class="menu-container">
-					<ul id="primary-menu" class="nav-menu nav-menu--primary">
-						<li class="disabled menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item"><a href="/" aria-current="page">Home</a></li>
-						<li class="disabled menu-item menu-item-type-post_type menu-item-object-page"><a target="_blank" rel="noopener noreferrer" href="/">Program</a></li>
-						<li class="disabled menu-item menu-item-type-post_type menu-item-object-page"><a target="_blank" rel="noopener noreferrer" href="/">Recipients</a></li>
-						<li class="disabled menu-item menu-item-type-post_type menu-item-object-page"><a target="_blank" rel="noopener noreferrer" href="/">The Heinz Awards</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class=" header-widgets"></div>
+	<header id="masthead" class="site-header">
+		<div class=" site-branding">
+			<a href="/" class="custom-logo-link" rel="home" aria-current="page"><img width="213" height="120" src="/img/Heinz-Logo_WEBSITE-UPDATED.png" class="custom-logo" alt=""></a>
 		</div>
 	</header>
 
@@ -57,10 +46,13 @@
 				<article class="page type-page status-publish post-password-required hentry entry">
 					<div class="entry-main-content">
 						<div class="entry-content">
+							<div class="callout">
+								<h4>Welcome to the 25th Anniversary of the Heinz Awards.</h4>
+								<p>In order to verify that you are authorized to access this stream,<br>please enter your <strong>email address</strong> below:</p>
+							</div>
 							<form class="verify-access-form" method="post">
-								<p>In order to verify that you are authorized to access this stream, please enter your <strong>email address</strong> below:</p>
-								<p><label for="email_address">Email Address: <input name="email_address" id="email_address" type="email" size="10" placeholder="your.name@example.com"></label> <input id="email_submit" type="submit" name="Submit" value="Enter"></p>
 								<div id="error-message"><p>This e-mail address is not authorized to view. Please try again.</p></div>
+								<p><label for="email_address">Email Address: <input name="email_address" id="email_address" type="email" size="10" placeholder="your.name@example.com"></label> <input id="email_submit" type="submit" name="Submit" value="Enter"></p>
 							</form>
 							<ul id="fauxdb"></ul>
 						</div>
@@ -70,12 +62,6 @@
 		</div>
 	</div>
 
-
-	<footer id="colophon" class="site-footer">
-		<div class=" footer-items wrapper">
-			<div class="footer-text"> © 2020 &centerdot; All rights reserved</div>
-		</div>
-	</footer>
 
 	<img src="/img/heinz-Web-BG6.png" id="fsb_image" alt="">
 	<script type="text/javascript" src="/js/verify.js"></script>

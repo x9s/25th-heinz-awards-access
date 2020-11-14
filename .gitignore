@@ -1,0 +1,6 @@
+config.codekit3
+.DS_Store
+
+*.hide.css
+*.hide.sass
+*.hide.scss

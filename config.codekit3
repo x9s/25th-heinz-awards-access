@@ -251,17 +251,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/js/jquery-ui.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/js/jquery-ui-min.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
 	"/js/jquery-ui.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -269,17 +258,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/js/jquery-ui.min-min.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"/js/jquery.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/js/jquery-min.js",
 		"oF": 1,
 		"sC": 0,
 		"tS": 0

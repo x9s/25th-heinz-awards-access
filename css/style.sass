@@ -19,11 +19,13 @@ body.home
   max-width: 567px !important
 
 .custom-logo-link img
-  height: auto
-  width: 100%
+  @media only screen and (max-width: 639px)
+    height: auto
+    width: 100%
 
   @media only screen and (min-width: 640px)
-    height: 300px !important
+    height: 200px !important
+    width: auto
 
 .home .site-content
   border: 0

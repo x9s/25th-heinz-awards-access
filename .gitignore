@@ -4,3 +4,5 @@ config.codekit3
 *.hide.css
 *.hide.sass
 *.hide.scss
+
+node_modules

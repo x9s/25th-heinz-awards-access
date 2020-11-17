@@ -15,6 +15,9 @@
 	<!-- Javascript -->
 	<script src="/js/jquery-1.12.4.min.js"></script>
 	<script src="/js/jquery-ui.min.js"></script>
+	<script src="/js/formdata.js"></script>
+	<script src="/js/promise.js"></script>
+	<script src="/js/fetch.js"></script>
 
 	<!-- Additional Meta -->
 	<link rel="canonical" href="https://25thheinzawards.com/">
@@ -46,11 +49,20 @@
 							<div class="callout">
 								<p>Please enter the email address that you used for registration.</p>
 							</div>
-							<form class="verify-access-form" method="post">
+
+							<form class="verify-access-form" name="verify-access-form" method="post">
 								<div id="error-message"><p>The email address you entered is not in our system.<br>Please email <a href="mailto:heinzawards@us.cievents.com">heinzawards@us.cievents.com</a> to gain access.</p></div>
-								<p><label for="email_address">Email Address: <input name="email_address" id="email_address" type="email" size="10" placeholder="your.name@example.com"></label> <input id="email_submit" type="submit" name="Submit" value="Enter"></p>
+								<p>
+									<label for="email_address">Email Address:
+										<input name="email" id="email" type="email" size="10" placeholder="your.name@example.com" required>
+									</label>
+									<input id="ip" name="ip" type="hidden">
+									<input id="submit" type="submit" name="Submit" value="Enter">
+								</p>
 							</form>
+
 							<ul id="fauxdb"></ul>
+
 						</div>
 					</div>
 				</article>
